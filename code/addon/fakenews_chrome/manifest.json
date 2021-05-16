@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "FADE-check",
+    "description": "This extension help users to identify the validity of a news article.", 
+    "version": "1.0",
+
+    "background": {
+        "scripts": [
+            "bg.js"
+        ]
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+		"js": ["content.js"]
+      }
+    ],
+
+    "icons": {
+        "48": "icons/checkmark1.png"
+    },
+
+    "permissions": [
+	"tabs",
+        "contextMenus",
+	    "activeTab",
+        "storage",
+        "notifications",
+	"http://*/*"
+    ]
+}
