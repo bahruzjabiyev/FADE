@@ -1,6 +1,6 @@
 ## FADE: Detecting Fake News Articles on the Web
 
-This repository shares the implementation materials of a paper published by ARES'21 under the title of "FADE: Detecting Fake News Articles on the Web".
+This repository shares the implementation materials of a [paper](https://seclab.nu/static/publications/ares2021fade.pdf) published by ARES'21 under the title of "FADE: Detecting Fake News Articles on the Web".
 
 ### Abstract
 Internet-based media and social networks enable quick access to information; however, that has also made it easy to conduct disinformation campaigns. Fake news poses a serious threat to the functioning and safety of our society, as demonstrated by nation-state-sponsored campaigns to sway the 2016 US presidential election, and more recently COVID-19 pandemic hoaxes that promote false cures, putting lives at risk.
